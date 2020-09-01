@@ -24,10 +24,10 @@ p{
     font-weight: normal;
     font-size: 16px;
     line-height: 28px;
-    color: rgba(0, 0, 0, 0.6);
+    /* color: rgba(0, 0, 0, 0.6); */
 }
 h1{
-    font-weight: 800;
+    font-weight: 800!important;
     font-size: 64px;
     line-height: 75px;
     color: #480029;
@@ -45,10 +45,11 @@ h1{
     background-color:#480029!important;
     border:0px!important;
     padding:.375rem 1.5rem!important;
+    color:#fff!important;
 }
 .about{
     background-color: rgba(247, 230, 240, 0.3);
-    height: 574px;
+    height: 500px;
     margin-left: 135px!important;
     margin-top: 60px;
     padding:40px 60px;
@@ -58,3 +59,60 @@ hr{
     border-top:5px solid #480029!important;
     margin:16px 0px!important;
 }
+.logos{
+    width:50px;
+    height:50px;
+}
+.pee{
+    font-size:24px!important;
+}
+.mt0{
+    margin-top:60px;
+}
+.identify{
+    color:#480029;
+    padding:50px 300px;
+}
+.join{
+    padding:4% 10%!important;
+}
+.pad{
+    padding:0 40px!important;
+
+}
+.join img{
+    border-radius:0 0 15% 0;
+    height:370px;
+}
+.img-oin::before{
+    content:'';
+    position:absolute;
+    height:1070px;
+    width:900px;
+    border:1px solid #480029;
+    border-radius: 0 0 15% 0;
+    background-color:rgb(107, 26, 26);
+    margin-left:20px;
+    z-index:-1;
+}
+input{
+    background-color:rgb(243, 237, 237)!important;
+}
+textarea{
+    background-color:rgb(243, 237, 237)!important;
+}
+footer{
+    background-color:rgb(161, 7, 92);
+    color:#fff!important;
+    padding:4% 2% 4% 7%!important;
+}
+
+.footer-plus{
+    background-color:rgb(80, 3, 41);
+    padding:1%;
+    color:rgb(102, 90, 90);
+}
+.aa{
+    color:#fff!important;
+}
+
